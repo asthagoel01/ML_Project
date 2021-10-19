@@ -1,4 +1,4 @@
-# ML_Project
+# Automating_Change_in_Hyperparameters_for_increasing_Model_Accuracy
 
 What is the Purpose of this Project?
 
@@ -7,7 +7,7 @@ Here,we also made some Model but The Accuracy of the Model really matters a lot 
 
 But it becomes hectic to make a good model because of many hyperparamaters(parameters which we need to set by own) so as to acheive good Accuracy and takes Much Time.
 
-But in today's world,we have became much dependent on machines that we can't wait much ,also can't do such manual things in machine;s world.
+But in today's world,we have became much dependent on machines that we can't wait much ,also can't do such manual things in machinees world.
 
 So,here I tried to automate the process of changing hyperparameters.Although there are many hyperparameters we need to change to acheive Wished accuracy.
 
@@ -16,8 +16,14 @@ Because,
 Less Neurons becomes insufficient for traning and making general formula ,in short, good model can't be acheived.
 More Neurons do Overfiiting,means learn dataset or a same pattern so Model not expertise on different-different patterns.
 
+...................................................Tools and Technologies used................................................................................
 
-------------------------------------------------------------------------Here are steps for my task-----------------------------------------------------------------------------
+Docker(to run model files)
+Python(Programming Language)
+ML(Technology for making and optimising model)
+Jenkins(to integrate and automate the whole process of updation and notification)
+
+-------------------------------------------------------------Here are steps for my task-------------------------------------------------------------------------
 
 1. Created container image that’s has Python3 and Keras or numpy installed using dockerfile (When we launch this image, it should automatically starts train the model in the container).
 
@@ -35,7 +41,6 @@ t3j4 : if metrics accuracy is less than 80% , then tweak the machine learning mo
 ![image](https://user-images.githubusercontent.com/62610706/137878985-5a3266ef-f3c1-4a6e-b6b2-34275e1687af.png)
 
 
-
 ..............................................................................Lets Start.........................................................................................
 
 1. Create container image that’s has Python3 and Keras or numpy installed using the Dockerfile.
@@ -43,7 +48,7 @@ t3j4 : if metrics accuracy is less than 80% , then tweak the machine learning mo
 ![image](https://user-images.githubusercontent.com/62610706/137864714-e86b98e3-36da-4fb8-82d6-5692b6c844a8.png)
 
 
-                                    Dockerfile for image t3:v1.
+                                    Dockerfile for image t3:v1.\
 
 2.
 
