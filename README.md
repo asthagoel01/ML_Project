@@ -32,6 +32,9 @@ t3j4 : if metrics accuracy is less than 80% , then tweak the machine learning mo
 
 4. Created One extra job t3j6 for monitor : If container where app is running. fails due to any reason then this job should automatically start the container again from where the last trained model left.
 
+![image](https://user-images.githubusercontent.com/62610706/137878985-5a3266ef-f3c1-4a6e-b6b2-34275e1687af.png)
+
+
 
 ..............................................................................Lets Start.........................................................................................
 
