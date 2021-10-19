@@ -23,7 +23,7 @@ Python(Programming Language)
 ML(Technology for making and optimising model)
 Jenkins(to integrate and automate the whole process of updation and notification)
 
--------------------------------------------------------------Here are steps for my task-------------------------------------------------------------------------
+-------------------------------------------------------------Here are steps for my task--------------------------------------------------------------------
 
 1. Created container image that’s has Python3 and Keras or numpy installed using dockerfile (When we launch this image, it should automatically starts train the model in the container).
 
