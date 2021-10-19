@@ -17,7 +17,7 @@ Less Neurons becomes insufficient for traning and making general formula ,in sho
 More Neurons do Overfiiting,means learn dataset or a same pattern so Model not expertise on different-different patterns.
 
 
-Here are steps for my task.
+------------------------------------------------------------------------Here are steps for my task-----------------------------------------------------------------------------
 
 1. Created container image that’s has Python3 and Keras or numpy installed using dockerfile (When we launch this image, it should automatically starts train the model in the container).
 
@@ -33,7 +33,7 @@ t3j4 : if metrics accuracy is less than 80% , then tweak the machine learning mo
 4. Created One extra job t3j6 for monitor : If container where app is running. fails due to any reason then this job should automatically start the container again from where the last trained model left.
 
 
-Lets Start ....................................................................................................................................................................
+..............................................................................Lets Start.........................................................................................
 
 1. Create container image that’s has Python3 and Keras or numpy installed using the Dockerfile.
 
@@ -124,7 +124,7 @@ On Best Accuracy Acheived ,mail will be sent to the Developer.
 
 ![image](https://user-images.githubusercontent.com/62610706/137866129-678de41a-32f0-4d5c-b92d-6b5f3f469b31.png)
 
-NOTE:For Successfully sending email,I used email-extension plugin.After installing the plugin,we need to do these things also in Manage Plugins-->Configure System-->E-mail Notification.
+Note: For Successfully sending email,I used email-extension plugin.After installing the plugin,we need to do these things also in Manage Plugins-->Configure System-->E-mail Notification.
 
 ![image](https://user-images.githubusercontent.com/62610706/137866204-02738b93-9d8e-41cb-a835-a41a167b307b.png)
 
