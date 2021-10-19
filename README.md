@@ -146,6 +146,6 @@ Now,Email will be sent for every build by the choosing Always in the Default Tri
 ![image](https://user-images.githubusercontent.com/62610706/137866411-c31f6299-07a2-45ab-9013-1cda5f712a37.png)
 
 
-check.py - https://github.com/asthagoel01/trying.git (Written by me)
-tweak.py- https://github.com/asthagoel01/trying.git (Written by me)
+check.py - https://github.com/asthagoel01/trying.git (Self Written)
+tweak.py- https://github.com/asthagoel01/trying.git (Self Written)
 FinalModel.py - https://github.com/asthagoel01/mlt3.git (Refrenced at some places)
